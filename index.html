@@ -1,10 +1,235 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Resume</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prachi Kotkar - Resume</title>
+    <style>
+        body {
+            font-family: 'Fredoka', sans-serif;
+            
+            background-color: black; /* Changed background to black */
+            color: white; /* Changed text color to white */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: black; /* Header color remains green */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px; /* Increased size of name */
+        }
+        .container {
+            padding: 20px;
+            max-width: 855px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #4CAF50; /* Headings remain green */
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-family: "Playwrite DE Grund", cursive;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.2;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+        a {
+            color: #4CAF50; /* Links remain green */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .resume-link {
+            margin: 20px 0;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .social-links {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .social-links a {
+            color: white; /* Changed social links color to white */
+            margin: 0 10px;
+            font-size: 18px;
+        }
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <a href="PrachiResume.pdf"> View my resume in pdf format</a>
+
+<header>
+    <h1 style = "font-family: 'IBM Plex Mono' , monospace;">Prachi Kotkar</h1>
+    <p>Santa Clara, CA | prachikotkarpg@gmail.com</p>
+    <div class="social-links" style="font-family: 'Fredoka', sans-serif">
+        <a href="https://www.linkedin.com/in/prachi-kotkar" target="_blank" style="font-weight: normal;">LinkedIn</a> | 
+        <a href="https://github.com/prachi-kotkar10" target="_blank" style="font-weight: normal;">GitHub</a> |
+        <!-- <a href="https://www.linkedin.com/in/prachi-kotkar" target="_blank">
+            <img src="linkedinImage.png" alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/prachi-kotkar10" target="_blank">
+            <img src="git.png" alt="GitHub" />
+        </a> -->
+        <a href="PrachiResume.pdf" target="_blank" style="font-weight: normal;">Resume</a>
+    </div>
+</header>
+
+<div class="container">
+
+    <section id="summary">
+        <h2>Summary</h2>
+        <p>Software Engineer with 3+ years of enterprise development experience, specializing in Java, Python, and databases (SQL & NoSQL). Strong understanding of server-side business logic, microservices architecture, CI/CD, and agile methodologies. Adept at designing scalable systems with reusability, maintainability, and performance optimization.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <div style="display: flex; justify-content: space-between;">
+                    <div> Santa Clara University, Santa Clara, California</div>
+                    <div><em>Sep 2023 - May 2025</em></div>
+                </div>
+                <div style="display: flex; justify-content: space-between; margin-top: 5px;">
+                    <div> Master of Science, Information Systems </div>
+                    <div><em>GPA: 3.8/4.0</em></div>
+                </div>
+                <p>Teaching Assistant - Data Warehousing: Facilitated labs and instructional sessions in SQL and Tableau.</p>
+            </li>
+            <li>
+                <div style="display: flex; justify-content: space-between;">
+                    <div> Vishwakarma Institute of Technology , Pune, India</div>
+                    <div><em>Sep 2016 - May 2020</em></div>
+                </div>
+                <div style="display: flex; justify-content: space-between; margin-top: 5px;">
+                    <div>Bachelor of Technology, Computer Engineering </div>
+                    <div><em>GPA: 3.8/4.0</em></div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    
+    <section id="work-experience">
+        <h2>Work Experience</h2>
+        <ul>
+            <li> 
+                <span style="text-decoration: underline; text-underline-offset: 5px; font-size: 20px;"> Atlassian </span>
+
+                <div style="text-align:right; float: right;">Jan 2024 - June 2024</div></li>
+                 Analyst, Practicum 
+
+            <p> Improved the customer purchasing experience for Jira and Confluence by identifying friction points and developing a random
+                forest predictive model in Python to estimate customer transitions from trial to paid subscriptions. Collaborated with the marketing 
+                team to derive insights, driving growth opportunities and boosting revenue</p>
+
+
+            <li> 
+            <span style="text-decoration: underline; text-underline-offset: 5px; font-size: 20px;">  TIAA - Teachers Insurance and Annuity Association of America </span>
+                    <div style="text-align:right; float: right;">Jul 2020 - Aug 2023</div></li>
+                     Senior Software Developer
+
+            <p style="line-height: 1.2;">During my tenure at TIAA, I played a pivotal role in streamlining business operations by automating key processes, optimizing SQL queries, 
+                and revamping the Asset Management Portal to enhance efficiency. 
+            <p style="line-height: 1.2;">I automated the generation of various trade files, which were
+                previously created manually, by developing Python scripts with embedded business logic to generate accurate trade files in Excel. 
+                Additionally, I set up cron jobs using Autosys to automatically email these reports to stakeholders.
+
+                I optimized database performance by refactoring repetitive SQL queries into efficient stored procedures. 
+                I also contributed to the complete overhaul of the Asset Management Portal, which was initially built in Vaadin and deployed on Oracle WebLogic. 
+                We rebuilt the portal using REST APIs in Spring Boot for the backend and HTML/CSS/JavaScript for the frontend, deploying 
+                the application on AWS for greater scalability and performance. </p>
+                
+            <p style="line-height: 1.2;">Working in an agile environment, I collaborated with cross-functional teams, and after being promoted, I had the opportunity to mentor interns, 
+                guiding them in coding best practices and project development.</p>
+
+            </p>    
+            <li> <span style="text-decoration: underline; text-underline-offset: 5px; font-size: 20px ;"> Expedite Informatics </span>
+                <div style="text-align:right; float: right;">Jan 2020 - Jun 2020</div></li>
+                 Software Engineer Intern
+            <p> During my internship, I had the opportunity to work on a Robotic Process Automation (RPA) project. 
+                We developed Python scripts to automate an email notification service that informed users about application 
+                status updates. This automation reduced daily manual efforts from 2 hours to just 5 minutes, significantly 
+                improving efficiency while cutting manual errors and costs by 50%.</p>
+        </ul>
+    </section>
+
+    <section id="technical-skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>
+                Programming Languages:
+                Java, Python, SQL, C++, C, JavaScript, Shell Scripting
+            </li>
+            
+            <li>Technologies: Java EE, Spring, Spring Boot, Hibernate, REST, Microservices, Apache Spark, Kafka, Kubernetes, Linux</li>
+            <li>Databases: MySQL, PostgreSQL, DynamoDB, MongoDB, Redshift, Redis</li>
+            <li>Frameworks & Tools: AWS, Tableau, Docker, Git, Jenkins, Azure, GCP, JUnit, Node.js, Angular, React, Agile</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul >
+            <lh> 
+                <span style="text-decoration: underline; text-underline-offset: 5px; font-size: 20px;"> 
+                    Log file Analysis | Python, Spark, Kafka, HDFS  </span>
+                </lh>
+            <li>• Developed a real-time log analytics solution using Spark Streaming and Kafka for a 17GB dataset.</li>
+            <li>• Implemented K-Means clustering algorithm to improve request grouping efficiency</li>
+            <li>• Created a data-flow pipeline to ingest log files into Kafka, used Spark Streaming to conduct real-time transformations, and stored the
+                processed data on HDFS in Parquet format</li>
+            <li>• Identified frequently occurring errors in log files and analyzed the highest number of user requests on a particular day </li>
+<br>
+            <lh> 
+                <span style="text-decoration: underline; text-underline-offset: 5px; font-size: 20px;">
+                US Car Accidents Analysis | Python, EDA, Pandas, PySpark, Power BI, Amazon S3 </span>
+            </lh>
+            <li>• Analyzed 7.7 million U.S. car accident records and utilized Spark & Power BI for visualization and insights.</li>
+            <li>• Utilized advanced data science techniques and tools, including Pandas, NumPy, Matplotlib, and Seaborn, to provide
+                insights into accident trends and contributing factors.</li>
+            <li>• Created dashboards and visualizations to communicate findings effectively to stakeholders.</li>
+            <br>
+            <br>
+        </ul>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Prachi Kotkar. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
-
